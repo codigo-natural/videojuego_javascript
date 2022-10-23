@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>juego con JavaSCript</title>
+  <link rel="stylesheet" href="./game.css">
+</head>
+<body>
+  <header>
+    <h1>Jugando con Canvas en JavaSCript</h1>
+  </header>
+  <div class="game-container">
+    <canvas id="game"></canvas>
+    <div class="btns">
+      <button id="up">Arriba</button>
+      <button id="left">Izquierda</button>
+      <button id="right">Derecha</button>
+      <button id="down">Abajo</button>
+    </div>
+    <div class="messages"> 
+      <p>Vidas: <span id="lives"></span></p>
+      <p>Tiempo: ⏰<span id="time"></span></p>
+      <p>Record: 🏁<span id="record"></span></p>
+      <p id="result"></p>
+    </div> 
+  </div>
+  <script src="./game.js"></script>
+  <script src="./maps.js"></script>
+</body>
+</html>
